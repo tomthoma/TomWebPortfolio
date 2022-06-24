@@ -39,9 +39,14 @@ body{
 
 #sprache{
   color: black;
+  float: right;
   
 }
 
 .btn{
   border: solid;
+}
+
+footer{
+  text-align: center;
 }

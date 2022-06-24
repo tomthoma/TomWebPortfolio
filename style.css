@@ -58,4 +58,9 @@ li a:hover {
 
 #sprache{
   color: black;
+  float: right;
+}
+
+footer{
+  text-align: center;
 }
