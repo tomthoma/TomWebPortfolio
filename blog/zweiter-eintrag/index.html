@@ -21,33 +21,25 @@
       <a href="kontaktE.html" id="sprache">DE/EN</a>
     </nav>
 
-    <main>
+<main>
       <h1 class="title">Kontakt</h1>
 
-      <p>
-      Sie können mich kontaktieren per Mail: <a href="mailto:spammails@gmx.ch">spammails@gmx.ch</a>
-      </p>
+<div>
+  <form action="/action_page.php">
+    <label for="fname">Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Vorname...">
 
-      <p>
-      Tom Thoma<br>
-      Schweiz
-      </p>
+    <label for="lname">Nachname</label>
+    <input type="text" id="lname" name="lastname" placeholder="Nachname...">
 
-      <form class="cf">
-      <div class="half left cf">
-        <input type="text" id="input-name" placeholder="Name">
-        <br>
-        <input type="email" id="input-email" placeholder="Email address">
-        <br>
-        <input type="text" id="input-subject" placeholder="Subject">
-      </div>
-      <div class="half right cf">
-        <textarea name="message" type="text" id="input-message" placeholder="Message"></textarea>
-      </div>  
-        <input type="submit" value="Submit" id="input-submit">
-      </form>
+    <label for="lname">Email</label>
+    <input type="email" id="lname" name="email" placeholder="Email...">
+  
+    <input type="submit" value="Submit">
+  </form>
+</div>
 
-    </main>
+</main>
   </body>
   <footer>
     <p>Erstellt von Tom Thoma. © 2022</p>
