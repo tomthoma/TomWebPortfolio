@@ -38,8 +38,10 @@ body{
 }
 
 footer{
+  position: absolute;
+  bottom: 0;
+  width: 99%;
   text-align: center;
-  margin-top: 160px; 
 }
 
 /*Kontakt form*/

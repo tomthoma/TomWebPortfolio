@@ -45,7 +45,7 @@ li a:hover {
 
 #bild{
   border: 7px solid; 
-  width: 170px;
+  width: 150px;
   float: right;
   margin-top: -250px;
 }
@@ -62,8 +62,11 @@ li a:hover {
 }
 
 footer{
+  
+  position: absolute;
+  bottom: 0;
+  width: 99%;
   text-align: center;
-  margin-top: 280px;
 }
 
 

@@ -39,8 +39,10 @@ body{
 }
 
 footer{
-  text-align: center; 
-  margin-top: 280px; 
+  position: absolute;
+  bottom: 0;
+  width: 99%;
+  text-align: center;
 }
 
 div {
